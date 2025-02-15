@@ -1,0 +1,48 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: black;
+    color: gold;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    background: url('background.jpg') no-repeat center center/cover;
+    height: 100vh;
+}
+
+.nav button {
+    background: gold;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.content h1 {
+    font-size: 3rem;
+}
+
+.login-container {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    width: 300px;
+    margin: 100px auto;
+    border-radius: 10px;
+}
+
+input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+button {
+    background: gold;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
